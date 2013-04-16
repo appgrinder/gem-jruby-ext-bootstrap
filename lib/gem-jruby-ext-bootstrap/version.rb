@@ -1,0 +1,9 @@
+module Gem
+  module Jruby
+    module Ext
+      module Bootstrap
+        VERSION = "0.0.1"
+      end
+    end
+  end
+end
