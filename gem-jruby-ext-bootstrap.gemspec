@@ -1,11 +1,11 @@
 # encoding: utf-8
 
 $:.unshift File.expand_path('../lib', __FILE__)
-require 'gem-jruby-ext-bootstrap/version'
+require 'gem_jruby_ext_bootstrap/version'
 
 Gem::Specification.new do |s|
   s.name          = "gem-jruby-ext-bootstrap"
-  s.version       = Gem::Jruby::Ext::Bootstrap::VERSION
+  s.version       = GemJrubyExtBootstrap::VERSION
   s.authors       = ["Piotr Gęga"]
   s.email         = ["pietia@appgrinder.pl"]
   s.homepage      = "https://github.com//gem-jruby-ext-bootstrap"
