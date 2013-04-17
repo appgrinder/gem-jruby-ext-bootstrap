@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.rubyforge_project = '[none]'
 
-  s.add_development_dependency "rake"
+  s.add_development_dependency "rake"      , "~>10.0.0"
+  s.add_development_dependency "minitest"  , "~>4.7.1"
 
-  s.add_dependency "gem-release"
+  s.add_dependency "gem-release"           , "~>0.5.4"
 end
